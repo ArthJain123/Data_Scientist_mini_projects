@@ -158,7 +158,7 @@ print(f"Score is {r2} which is closer to 1\nThis Mean the predictted Value Accur
 
 plt.title("Predicting values by using Linear Regression ML",fontsize = 15)
 
-plt.xlabel('All Data')
+plt.xlabel('100 Rows Data')
 plt.ylabel("Predicted V/S Actual Total Price")
 
 plt.plot(y.index,y,color = "pink",label = "Actual Data",marker = ".",mfc ="red")
