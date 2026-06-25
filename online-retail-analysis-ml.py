@@ -8,7 +8,7 @@ from sklearn.metrics import r2_score
 
 # ====================== Step 1 =========================
 
-# data = pd.read_excel("/content/OnlineRetail (1).xlsx")
+data = pd.read_excel("/content/OnlineRetail (1).xlsx")
 
 print("First 5 Rows of Data: \n",data.head(5))
 
