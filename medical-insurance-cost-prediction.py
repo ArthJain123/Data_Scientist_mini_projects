@@ -8,6 +8,8 @@ from sklearn.metrics import r2_score
 from sklearn.metrics import mean_absolute_error
 from sklearn.metrics import root_mean_squared_error
 
+# Data set link here:- https://github.com/SahilChachra/Medical-Cost-Prediction/blob/master/insurance.csv
+
 data = pd.read_csv("/content/medical_insurance_project.csv")
 # print(data)
 
